@@ -76,7 +76,7 @@ public class RuntimeTextureViewer : Widget
 			bgraPixels[i * 4 + 3] = pixels[i].a;
 		}
 
-		return _pix.UpdateFromPixels( bgraPixels, texture.Size, texture.ImageFormat );
+		return _pix.UpdateFromPixels( bgraPixels, texture.Size );
 	}
 
 	private void Clear()
