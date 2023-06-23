@@ -16,3 +16,6 @@ Log.Info(Texture.White);
  
 
 This will become obsolete if/when the game's built-in Inspector gets rewritten or this feature is implemented for it.
+
+Tips: 
+1. You can right click and select "Clear" to manually remove the texture from the viewer.
